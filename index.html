@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=".\style.css">
+    <script src="index.js" type="module" defer></script>
+    <title>Cadastro</title>
+</head>
+<body>
+    <main  class="container">
+        <img src="Imagens/LOGO Escrita Branca.png">
+        <h1 class="title">Cadastro</h1>
+         <form action="https://api.staticforms.xyz/submit" method="post">
+        <input type="hidden" name="accessKey" value="ee175ee4-8b05-49db-a13e-fa69b0d8e954">
+        <input type="hidden" name="redirectTo" value="https://www.shekparts.com.br/">
+
+        <div class="row">
+            <div class="inputbox">
+                <input type="text" id="nome" required name="name">
+                <label for="nome">Nome</label>
+            </div>
+            <div class="inputbox">
+                <input type="text" id="email"  required name="email">
+                <label for="email">Email</label>
+            </div>
+        </div><br><br>
+        <div class="row">
+            <div class="inputbox">
+                <input type="text" id="cep"  required name="subject">
+                <label for="cep">CEP</label>
+            </div>
+            <div class="inputbox">
+                <input type="text" id="endereco"  required name="$myCustomField1">
+                <label for="endereco">Endereço</label>
+            </div>
+            <div class="inputbox">
+                <input type="text" id="numero"  required name="$myCustomField2">
+                <label for="numero">Número</label>
+            </div>
+            <div class="inputbox">
+                <input type="text" id="bairro"  required name="$myCustomField3">
+                <label for="bairro">Bairro</label>
+            </div>
+            <div class="inputbox">
+                <input type="text" id="cidade"  required
+                name="$myCustomField4">
+                <label for="cidade">Cidade</label>
+            </div>
+            <div class="inputbox">
+                <input type="text" id="estado"  required name="$myCustomField5">
+                <label for="estado">Estado</label>
+            </div>
+            <div class="row">
+            <div class="inputbox">
+                <input type="text" id="CNPJ"  required name="$myCustomField6">
+                <label for="CNPJ">CNPJ</label>
+            </div></div>
+        </div><br>
+        <div class="row">
+            <button id="btn">ENVIAR</button>
+        </div>
+         </form>
+    </main>
+    <footer>
+        Shekparts do Brasil Ind. e Com. Eirelli - EPP CNPJ: 21.281.037/0001-05 - Rua Sandovalina, 93 - Guarulhos/SP - CEP: 07194-490
+    </footer>
+</body>
+</html>
