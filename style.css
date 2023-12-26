@@ -21,6 +21,13 @@ body {
     background-color: var(--bg-color) ;
 }
 
+.logo__ajust {
+    width: 50%;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+}
+
 .container {
     flex-grow: 3;
     display: flex;
@@ -28,6 +35,11 @@ body {
     justify-content: center;
     width: 80%;
     gap: 2.5rem;
+}
+
+.paragrafo {
+    color: #FFFFFF;
+    font-size: 1.4rem;
 }
 
 .title {
