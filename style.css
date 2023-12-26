@@ -140,7 +140,7 @@ footer {
 
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1400px) {
     body {
         display: flex;
         flex-direction: column;
@@ -157,6 +157,11 @@ footer {
             justify-content: center;
             width: 95%;
             gap: 2.5rem;
-
-  }
+        }
+    .logo__ajust {
+            width: 80%;
+            text-align: center;
+            align-items: center;
+            padding: 20px;
+        }
 }
